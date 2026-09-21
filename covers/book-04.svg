@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900">
+<rect width="600" height="900" fill="#f6f5ef"/>
+<circle cx="165" cy="510" r="115" fill="#e3ebe6"/><circle cx="235" cy="465" r="22" fill="#2a9f70"/><circle cx="105" cy="545" r="20" fill="#2a9f70"/><circle cx="195" cy="585" r="18" fill="#4d9fa3"/>
+<rect x="340" y="480" width="180" height="300" rx="90" fill="#d7d9d8"/><circle cx="430" cy="535" r="65" fill="#bda78e"/>
+<text x="45" y="155" fill="#222" font-family="serif" font-size="48" font-weight="700">更新<tspan fill="#357ab7">粒線體</tspan>，</text>
+<text x="45" y="225" fill="#222" font-family="serif" font-size="48" font-weight="700">根治慢性病</text>
+<text x="45" y="840" fill="#111" font-family="Arial" font-size="24">PAKS</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b3d91"/><stop offset=".55" stop-color="#3aa6e8"/><stop offset="1" stop-color="#dcecff"/></linearGradient></defs>
+<rect width="600" height="900" fill="url(#g)"/>
+<circle cx="445" cy="180" r="105" fill="none" stroke="#dff6ff" stroke-width="18" opacity=".75"/>
+<g fill="#fff" opacity=".9"><circle cx="85" cy="90" r="6"/><circle cx="145" cy="155" r="4"/><circle cx="500" cy="330" r="5"/><circle cx="360" cy="105" r="3"/><circle cx="280" cy="270" r="5"/></g>
+<path d="M110 700c90-125 120-170 150-205 26 54 30 128 35 205z" fill="#edf7ff" opacity=".8"/>
+<text x="55" y="235" fill="#f5f7e8" font-family="serif" font-size="48" font-weight="700">看不見光，</text>
+<text x="55" y="300" fill="#f5f7e8" font-family="serif" font-size="48" font-weight="700">你自有方向</text>
+<text x="55" y="820" fill="#ffffff" font-family="Arial" font-size="24">PAKS</text>
+</svg>

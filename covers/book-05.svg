@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900">
+<rect width="600" height="900" fill="#f3dc19"/>
+<g fill="#2a2a2a"><circle cx="170" cy="165" r="18"/><path d="M160 185l20 0 18 50-55 0z"/></g>
+<path d="M120 650c35-80 140-70 180 10-30 55-135 60-180-10z" fill="#b74b65"/><circle cx="180" cy="642" r="11" fill="#fff"/><circle cx="238" cy="642" r="11" fill="#fff"/>
+<text x="60" y="270" fill="#151515" font-family="serif" font-size="42" font-weight="700">不知道自己</text>
+<text x="60" y="325" fill="#151515" font-family="serif" font-size="38">以后要做什么的</text>
+<text x="110" y="405" fill="#1986bf" font-family="serif" font-size="62" font-weight="700">请举手</text>
+<text x="50" y="840" fill="#222" font-family="Arial" font-size="24">PAKS</text>
+</svg>

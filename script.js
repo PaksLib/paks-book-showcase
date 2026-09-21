@@ -1,12 +1,12 @@
 const books=[
-{title:"看不見光，你自有方向",category:"Perspective",image:"covers/book-01.jpg",description:"A reflective Chinese-language read about finding direction when the way ahead feels unclear."},
-{title:"Inspiration",category:"Perspective",image:"covers/book-02.jpg",description:"A thoughtful title selected for readers looking for fresh perspective and everyday inspiration."},
-{title:"态度，决定你的亮度",category:"Life & Work",image:"covers/book-03.jpg",description:"A title centred on attitude, outlook and the way perspective can shape everyday life."},
-{title:"更新粒線體，根治慢性病",category:"Wellbeing",image:"covers/book-04.jpg",description:"A wellbeing-focused title exploring health, the body and long-term lifestyle considerations."},
-{title:"不知道自己以后要做什么的，请举手",category:"Life & Work",image:"covers/book-05.jpg",description:"A title for readers reflecting on future direction, work, purpose and what comes next."},
-{title:"吴娟瑜的情绪管理学",category:"Wellbeing",image:"covers/book-06.jpg",description:"A practical wellbeing title focused on understanding and managing emotions in daily life."},
-{title:"癌，是另一种爱",category:"Wellbeing",image:"covers/book-07.jpg",description:"A reflective health-related title exploring illness, care and human experience."},
-{title:"小习惯，大健康",category:"Wellbeing",image:"covers/book-08.jpg",description:"A practical wellbeing read about how small daily habits can support healthier living."}
+{title:"看不見光，你自有方向",category:"Perspective",image:"covers/book-01.svg",description:"A reflective Chinese-language read about finding direction when the way ahead feels unclear."},
+{title:"Inspiration",category:"Perspective",image:"covers/book-02.svg",description:"A thoughtful title selected for readers looking for fresh perspective and everyday inspiration."},
+{title:"态度，决定你的亮度",category:"Life & Work",image:"covers/book-03.svg",description:"A title centred on attitude, outlook and the way perspective can shape everyday life."},
+{title:"更新粒線體，根治慢性病",category:"Wellbeing",image:"covers/book-04.svg",description:"A wellbeing-focused title exploring health, the body and long-term lifestyle considerations."},
+{title:"不知道自己以后要做什么的，请举手",category:"Life & Work",image:"covers/book-05.svg",description:"A title for readers reflecting on future direction, work, purpose and what comes next."},
+{title:"吴娟瑜的情绪管理学",category:"Wellbeing",image:"covers/book-06.svg",description:"A practical wellbeing title focused on understanding and managing emotions in daily life."},
+{title:"癌，是另一种爱",category:"Wellbeing",image:"covers/book-07.svg",description:"A reflective health-related title exploring illness, care and human experience."},
+{title:"小习惯，大健康",category:"Wellbeing",image:"covers/book-08.svg",description:"A practical wellbeing read about how small daily habits can support healthier living."}
 ];
 
 const grid=document.getElementById("bookGrid"),search=document.getElementById("searchInput"),filters=[...document.querySelectorAll(".filter")],empty=document.getElementById("emptyState"),bookCount=document.getElementById("bookCount");

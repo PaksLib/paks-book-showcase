@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900">
+<rect width="600" height="900" fill="#f6f2df"/>
+<circle cx="360" cy="240" r="155" fill="#d9e8e2"/><circle cx="445" cy="210" r="72" fill="#f5d84e"/>
+<rect x="340" y="500" width="170" height="260" rx="85" fill="#f7f7f5"/><circle cx="425" cy="525" r="60" fill="#caa58d"/>
+<text x="55" y="235" fill="#111" font-family="serif" font-size="52" font-weight="700">小习惯，</text>
+<text x="150" y="350" fill="#0d8d62" font-family="serif" font-size="78" font-weight="700">大健康</text>
+<text x="320" y="205" fill="#244" font-family="serif" font-size="22">从细节开始</text>
+<text x="320" y="235" fill="#244" font-family="serif" font-size="22">改变生活</text>
+<text x="45" y="840" fill="#111" font-family="Arial" font-size="24">PAKS</text>
+</svg>

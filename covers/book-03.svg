@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900">
+<rect width="600" height="900" fill="#0681c7"/>
+<circle cx="160" cy="570" r="58" fill="#ffd62c"/><path d="M145 620h32l45 125h-122z" fill="#efefef"/>
+<path d="M75 780c75-30 125-15 175 0s100 20 185-10" fill="none" stroke="#f6dd2e" stroke-width="8"/>
+<text x="55" y="185" fill="#f17127" font-family="serif" font-size="62" font-weight="700">态度，</text>
+<text x="80" y="275" fill="#f2df22" font-family="serif" font-size="52" font-weight="700">决定你的</text>
+<text x="175" y="355" fill="#f2df22" font-family="serif" font-size="52" font-weight="700">亮度</text>
+<text x="45" y="845" fill="#111" font-family="Arial" font-size="25">PAKS</text>
+</svg>
