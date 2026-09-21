@@ -1,50 +1,64 @@
+function placeholderCover(number) {
+  const n = String(number).padStart(2, "0");
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200">
+    <rect width="800" height="1200" fill="#e8e1d5"/>
+    <rect x="54" y="54" width="692" height="1092" rx="26" fill="#f8f4ec" stroke="#1f2a23" stroke-width="4"/>
+    <text x="400" y="160" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#315f47">PAKS · TODAY'S SPECIAL</text>
+    <line x1="150" y1="225" x2="650" y2="225" stroke="#1f2a23" stroke-width="3"/>
+    <text x="400" y="480" text-anchor="middle" font-family="Arial,sans-serif" font-size="44" font-weight="700" fill="#17211b">BOOK ${n}</text>
+    <text x="400" y="950" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" fill="#68736d">Replace with your original cover</text>
+    <text x="400" y="1010" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#68736d">Perpustakaan Awam Kota Sentosa</text>
+  </svg>`;
+  return "data:image/svg+xml;charset=UTF-8," + encodeURIComponent(svg);
+}
+
 const books = [
   {
     title: "看不見光，你自有方向",
     category: "Perspective",
-    image: "book-01.svg",
+    image: placeholderCover(1),
     description: "A reflective Chinese-language read about finding direction when the way ahead feels unclear."
   },
   {
     title: "Inspiration",
     category: "Perspective",
-    image: "book-02.svg",
+    image: placeholderCover(2),
     description: "A thoughtful title selected for readers looking for fresh perspective and everyday inspiration."
   },
   {
     title: "态度，决定你的亮度",
     category: "Life & Work",
-    image: "book-03.svg",
+    image: placeholderCover(3),
     description: "A title centred on attitude, outlook and the way perspective can shape everyday life."
   },
   {
     title: "更新粒線體，根治慢性病",
     category: "Wellbeing",
-    image: "book-04.svg",
+    image: placeholderCover(4),
     description: "A wellbeing-focused title exploring health, the body and long-term lifestyle considerations."
   },
   {
     title: "不知道自己以后要做什么的，请举手",
     category: "Life & Work",
-    image: "book-05.svg",
+    image: placeholderCover(5),
     description: "A title for readers reflecting on future direction, work, purpose and what comes next."
   },
   {
     title: "吴娟瑜的情绪管理学",
     category: "Wellbeing",
-    image: "book-06.svg",
+    image: placeholderCover(6),
     description: "A practical wellbeing title focused on understanding and managing emotions in daily life."
   },
   {
     title: "癌，是另一种爱",
     category: "Wellbeing",
-    image: "book-07.svg",
+    image: placeholderCover(7),
     description: "A reflective health-related title exploring illness, care and human experience."
   },
   {
     title: "小习惯，大健康",
     category: "Wellbeing",
-    image: "book-08.svg",
+    image: placeholderCover(8),
     description: "A practical wellbeing read about how small daily habits can support healthier living."
   }
 ];
