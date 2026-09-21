@@ -2,49 +2,49 @@ const books = [
   {
     title: "看不見光，你自有方向",
     category: "Perspective",
-    image: "assets/book-01.svg",
+    image: "book-01.svg",
     description: "A reflective Chinese-language read about finding direction when the way ahead feels unclear."
   },
   {
     title: "Inspiration",
     category: "Perspective",
-    image: "assets/book-02.svg",
+    image: "book-02.svg",
     description: "A thoughtful title selected for readers looking for fresh perspective and everyday inspiration."
   },
   {
     title: "态度，决定你的亮度",
     category: "Life & Work",
-    image: "assets/book-03.svg",
+    image: "book-03.svg",
     description: "A title centred on attitude, outlook and the way perspective can shape everyday life."
   },
   {
     title: "更新粒線體，根治慢性病",
     category: "Wellbeing",
-    image: "assets/book-04.svg",
+    image: "book-04.svg",
     description: "A wellbeing-focused title exploring health, the body and long-term lifestyle considerations."
   },
   {
     title: "不知道自己以后要做什么的，请举手",
     category: "Life & Work",
-    image: "assets/book-05.svg",
+    image: "book-05.svg",
     description: "A title for readers reflecting on future direction, work, purpose and what comes next."
   },
   {
     title: "吴娟瑜的情绪管理学",
     category: "Wellbeing",
-    image: "assets/book-06.svg",
+    image: "book-06.svg",
     description: "A practical wellbeing title focused on understanding and managing emotions in daily life."
   },
   {
     title: "癌，是另一种爱",
     category: "Wellbeing",
-    image: "assets/book-07.svg",
+    image: "book-07.svg",
     description: "A reflective health-related title exploring illness, care and human experience."
   },
   {
     title: "小习惯，大健康",
     category: "Wellbeing",
-    image: "assets/book-08.svg",
+    image: "book-08.svg",
     description: "A practical wellbeing read about how small daily habits can support healthier living."
   }
 ];
