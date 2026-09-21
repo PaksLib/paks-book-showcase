@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200">
+  <rect width="800" height="1200" fill="#e8e1d5"/>
+  <rect x="54" y="54" width="692" height="1092" rx="26" fill="#f8f4ec" stroke="#1f2a23" stroke-width="4"/>
+  <text x="400" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#315f47">PAKS · TODAY'S SPECIAL</text>
+  <line x1="150" y1="225" x2="650" y2="225" stroke="#1f2a23" stroke-width="3"/>
+  <text x="400" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#17211b">
+    <tspan x="400" dy="0">BOOK 06</tspan>
+  </text>
+  <text x="400" y="950" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" fill="#68736d">Replace with your original cover</text>
+  <text x="400" y="1010" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" fill="#68736d">Perpustakaan Awam Kota Sentosa</text>
+</svg>
