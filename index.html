@@ -1,81 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="PAKS Book Showcase – Featured and newly arrived books at Perpustakaan Awam Kota Sentosa." />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PAKS Book Showcase – Featured and newly arrived books at Perpustakaan Awam Kota Sentosa.">
   <title>PAKS — Today’s Special</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <a class="skip-link" href="#collection">Skip to collection</a>
 
-  <header class="site-header">
-    <div class="brand">
-      <div class="brand-mark">PAKS</div>
-      <div>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="PAKS book showcase home">
+      <span class="brand-mark">PAKS</span>
+      <span class="brand-copy">
         <strong>Perpustakaan Awam Kota Sentosa</strong>
-        <span>Book Showcase</span>
-      </div>
-    </div>
-    <a class="nav-link" href="#collection">Explore books</a>
+        <small>BOOK SHOWCASE</small>
+      </span>
+    </a>
+    <a class="top-link" href="#collection">EXPLORE BOOKS</a>
   </header>
 
   <main>
     <section class="hero">
       <div class="hero-copy">
         <p class="eyebrow">TODAY’S SPECIAL</p>
-        <h1>A fresh shelf of ideas.</h1>
-        <p class="lead">
-          Explore newly featured books at PAKS—from practical wellbeing
-          to fresh perspective and personal growth.
-        </p>
-        <a class="button primary" href="#collection">Browse new arrivals</a>
+        <h1>A fresh shelf<br>of ideas.</h1>
+        <p class="lead">Explore newly featured books at PAKS—from practical wellbeing to fresh perspective and personal growth.</p>
+        <a class="pill pill-dark" href="#collection">Browse new arrivals</a>
       </div>
 
-      <div class="featured-card" aria-live="polite">
-        <div class="featured-topline">
+      <article class="feature-shell">
+        <div class="feature-head">
           <span>Featured at Perpustakaan Awam Kota Sentosa</span>
           <span id="featuredCount">01 / 08</span>
         </div>
-
-        <div class="featured-content">
-          <div class="cover-wrap">
-            <img id="featuredCover" src="" alt="Featured book cover" />
-          </div>
-          <div class="featured-info">
+        <div class="feature-main">
+          <button class="cover-button" id="featuredDetailsBtn" type="button" aria-label="View featured book">
+            <img id="featuredCover" src="covers/book-01.jpg" alt="Cover of 看不見光，你自有方向">
+          </button>
+          <div class="feature-copy">
             <p class="category" id="featuredCategory">PERSPECTIVE</p>
             <h2 id="featuredTitle">看不見光，你自有方向</h2>
-            <p id="featuredDescription">
-              A reflective Chinese-language read about finding direction when the way ahead feels unclear.
-            </p>
-            <button class="text-button" id="featuredDetailsBtn" type="button">View book</button>
+            <p id="featuredDescription">A reflective Chinese-language read about finding direction when the way ahead feels unclear.</p>
+            <button class="view-link" id="featuredViewBtn" type="button">VIEW BOOK</button>
           </div>
         </div>
-
-        <div class="featured-controls">
-          <button id="prevFeatured" type="button" aria-label="Previous featured book">← Previous</button>
-          <button id="nextFeatured" type="button" aria-label="Next featured book">Next →</button>
+        <div class="feature-nav">
+          <button id="prevFeatured" type="button">← Previous featured book</button>
+          <button id="nextFeatured" type="button">Next featured book →</button>
         </div>
-      </div>
+      </article>
     </section>
 
-    <section class="collection-section" id="collection">
-      <div class="section-heading">
+    <section class="collection" id="collection">
+      <div class="collection-head">
         <div>
           <p class="eyebrow">ON THE SHELF</p>
           <h2>Find your next read</h2>
         </div>
-        <p><span id="bookCount">8</span> books</p>
+        <span class="count"><span id="bookCount">8</span> books</span>
       </div>
 
       <div class="toolbar">
-        <label class="search-box">
+        <label class="search">
           <span class="sr-only">Search books</span>
-          <input id="searchInput" type="search" placeholder="Search books" />
+          <input id="searchInput" type="search" placeholder="Search books">
         </label>
-
-        <div class="filters" role="group" aria-label="Filter by category">
+        <div class="filters" role="group" aria-label="Book category filters">
           <button class="filter active" data-filter="All" type="button">All</button>
           <button class="filter" data-filter="Perspective" type="button">Perspective</button>
           <button class="filter" data-filter="Wellbeing" type="button">Wellbeing</button>
@@ -87,14 +79,11 @@
       <p class="empty-state" id="emptyState" hidden>No books match your search.</p>
     </section>
 
-    <section class="cta">
+    <section class="closing">
       <p class="eyebrow">YOUR NEXT CHAPTER</p>
       <h2>See something you like?</h2>
-      <p>
-        Visit Perpustakaan Awam Kota Sentosa and look for these featured titles on the shelves.
-        Shelf status may change.
-      </p>
-      <a class="button secondary" href="#collection">Return to collection</a>
+      <p>Visit Perpustakaan Awam Kota Sentosa and look for these featured titles on the shelves. Shelf status may change.</p>
+      <a class="pill pill-light" href="#collection">Return to collection</a>
     </section>
   </main>
 
@@ -104,9 +93,9 @@
   </footer>
 
   <dialog id="bookDialog">
-    <button class="dialog-close" id="dialogClose" type="button" aria-label="Close">×</button>
+    <button id="dialogClose" class="dialog-close" type="button" aria-label="Close">×</button>
     <div class="dialog-layout">
-      <img id="dialogCover" src="" alt="" />
+      <img id="dialogCover" src="" alt="">
       <div>
         <p class="category" id="dialogCategory"></p>
         <h2 id="dialogTitle"></h2>
